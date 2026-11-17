@@ -1,0 +1,9 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Mi carrera · Ingeniería en Sistemas</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body><div class="w">
+<div class="top"><div class="ring" id="ring"><div id="pc"></div></div><div><h1>Ingeniería en Sistemas de Información</h1><p>Plan 2019 · Universidad de la Cuenca del Plata</p><div class="st" id="st"></div></div></div>
+<div class="tabs" id="tabs"></div><div id="main"></div>
+<p class="mu" style="margin-top:30px;font-size:13px">Tu progreso se guarda solo en este navegador y es solo tuyo. Para pasarlo a otra compu o hacer un respaldo: <button class="bt" onclick="ex()">⬇ Guardar mi progreso</button> <button class="bt" onclick="$('fi').click()">⬆ Cargar progreso</button> <input type="file" id="fi" accept=".json" hidden onchange="im(this.files[0]);this.value=''"> <button class="bt" onclick="rs()">Borrar todo</button></p></div>
+<div class="ov" id="ov" onclick="if(event.target===this)cl()"><div class="md" id="md"></div></div>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script></body></html>
